@@ -1,0 +1,2 @@
+a,b,c=map(int,input().split())
+print((b-1+c)%a+1)
