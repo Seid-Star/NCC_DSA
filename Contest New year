@@ -1,0 +1,11 @@
+a,b=map(int,input().split())
+arr=[]
+for i in range(1,a+1):
+    arr.append(5*i)
+while (sum(arr))+b>240:
+    arr.pop()
+print(len(arr))
+
+
+    
+
